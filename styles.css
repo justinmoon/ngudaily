@@ -47,3 +47,7 @@ a:visited {
 .transparent {
     color: transparent;
 }
+
+.handle {
+    margin: 0 0.5rem 0 0.5rem;
+}
