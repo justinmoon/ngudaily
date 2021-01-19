@@ -3,6 +3,20 @@ body {
     background-color: #FF9900;
 } 
 
+footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+a:link {
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
 .container {
     min-height: 100vh;
     display: flex;
@@ -17,7 +31,6 @@ body {
 }
 
 .text {
-    /*font-family: 'Special Elite', cursive;*/
     font-size: 2rem;
     text-align: center;
     padding: 0;
@@ -25,23 +38,12 @@ body {
 }
 
 .number {
-    /*font-family: 'Special Elite', cursive;*/
     font-size: 6rem;
     text-align: center;
     padding: 0;
     margin: 4rem 0 2rem 0;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-a:link {
-    color: inherit;
-}
-
-a:visited {
-    color: inherit;
+.transparent {
+    color: transparent;
 }
